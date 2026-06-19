@@ -113,6 +113,14 @@ Respuesta:
 
 Detalle completo en [`REPORTE_METRICAS.md`](REPORTE_METRICAS.md). Reproducible con `python scripts/benchmark.py`.
 
+## Capturas del API funcionando
+![Documentación Swagger (/docs)](capturas/swagger.png)
+![Ingestión de datos](capturas/ingest.png)
+![Procesamiento (ETL)](capturas/process.png)
+![Consulta de resultados](capturas/results.png)
+![Predicción de temperatura (ML)](capturas/predecir1.png)
+![Predicción de temperatura (ML)](capturas/predecir2.png)
+
 ## Autores
 
 Proyecto grupal — Tecnologías Emergentes I, Universidad Privada del Valle (UNIVALLE).

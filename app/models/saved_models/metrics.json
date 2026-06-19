@@ -1,0 +1,18 @@
+{
+  "randomforest": {
+    "MAE": 1.271,
+    "RMSE": 1.593,
+    "R2": 0.931
+  },
+  "gradientboosting": {
+    "MAE": 1.18,
+    "RMSE": 1.472,
+    "R2": 0.941
+  },
+  "isolationforest": {
+    "precision": 0.69,
+    "recall": 0.714,
+    "F1": 0.702
+  },
+  "nota": "Métricas de evaluación de los modelos (holdout 80/20, semilla 42)."
+}

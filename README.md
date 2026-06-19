@@ -60,7 +60,6 @@ cd invernadero-data-api
 # 2. (Recomendado) Crear y activar un entorno virtual
 python -m venv venv
 venv\Scripts\activate        # Windows
-# source venv/bin/activate   # Linux / macOS
 
 # 3. Instalar las dependencias
 python -m pip install -r requirements.txt
@@ -114,19 +113,11 @@ Respuesta:
 
 Detalle completo en [`REPORTE_METRICAS.md`](REPORTE_METRICAS.md). Reproducible con `python scripts/benchmark.py`.
 
-## Capturas del API funcionando
-
-> Agregar aquí las capturas de pantalla del API en funcionamiento (carpeta `capturas/`):
-> la página `/docs`, una ingestión exitosa, el procesamiento y la consulta de resultados.
-
-<!-- Ejemplo de cómo insertar una captura:
-![Documentación Swagger](capturas/swagger.png)
-![Ingestión de datos](capturas/ingest.png)
-![Resultados procesados](capturas/results.png)
--->
-
 ## Autores
 
 Proyecto grupal — Tecnologías Emergentes I, Universidad Privada del Valle (UNIVALLE).
 
-*(Agregar aquí los nombres de los cuatro integrantes.)*
+-Saul Alessander Chipana Bautista
+-Alex Michael Loza Donaldson 
+-Jose Ignacio De La Barra Urquieta
+-Javier Morales Gutierrez

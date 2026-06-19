@@ -2,7 +2,7 @@
 
 API REST que cubre el **flujo completo de Big Data** —ingestión, procesamiento y consulta—
 de los datos ambientales del invernadero del **Colegio Club de Leones**, con análisis mediante
-**Machine Learning**. Proyecto de la materia **Tecnologías Emergentes I** (UNIVALLE).
+**Machine Learning**.
 
 ---
 

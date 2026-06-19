@@ -123,8 +123,6 @@ Detalle completo en [`REPORTE_METRICAS.md`](REPORTE_METRICAS.md). Reproducible c
 
 ## Autores
 
-Proyecto grupal — Tecnologías Emergentes I, Universidad Privada del Valle (UNIVALLE).
-
 -Saul Alessander Chipana Bautista
 
 -Alex Michael Loza Donaldson 

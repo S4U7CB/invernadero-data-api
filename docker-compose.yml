@@ -1,0 +1,14 @@
+# Levanta el API del invernadero en un contenedor.
+# Uso:
+#   docker compose up --build      -> construye y levanta el servicio
+#   docker compose ps              -> verifica que esté activo
+#   docker compose down            -> lo detiene
+services:
+  api:
+    build: .
+    container_name: invernadero-api
+    ports:
+      - "8000:8000"          # http://localhost:8000/docs
+    restart: unless-stopped
+    # Nota: la base de datos sqlite se crea dentro del contenedor.
+    # Para un prototipo es suficiente; los datos se reinician si se recrea el contenedor.

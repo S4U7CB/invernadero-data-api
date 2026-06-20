@@ -43,15 +43,17 @@ invernadero-data-api/
 ├── data/                       # dataset simulado
 ├── REPORTE_METRICAS.md         # reporte de métricas obtenidas
 ├── requirements.txt
+├── Dockerfile                  # imagen del contenedor
+├── docker-compose.yml          # orquestación del servicio
 └── README.md
 ```
 
 ## Requisitos
-
-- Python 3.9 o superior
+- Python 3.9 o superior, **o** Docker Desktop
 
 ## Instalación y ejecución
 
+### Opción A — Local (con Python)
 ```bash
 # 1. Clonar el repositorio
 git clone https://github.com/USUARIO/invernadero-data-api.git
@@ -69,6 +71,22 @@ python scripts/entrenar_modelos.py
 
 # 5. Iniciar el API
 python -m uvicorn app.main:app --reload
+```
+
+### Opción B — Con Docker
+```bash
+# 1. Clonar el repositorio
+git clone https://github.com/USUARIO/invernadero-data-api.git
+cd invernadero-data-api
+
+# 2. Construir y levantar todos los servicios
+docker compose up --build
+
+# 3. Verificar que los servicios estén activos
+docker compose ps
+
+# Para detenerlo:
+docker compose down
 ```
 
 Documentación interactiva (Swagger UI): **http://127.0.0.1:8000/docs**
